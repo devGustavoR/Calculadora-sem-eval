@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+	<meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora</title>
   <link rel="stylesheet" href="./style.css">
-  <script src="./scripts.js"></script>
+	<script src="./scripts.js"></script>
 </head>
+
 <body>
-  <main id="calculadora">
-    <section id="display">
-      <input type="text" id="history" value="" disabled>
-      <output name="result" id="result" for="history">0</output>
-    </section>
-    <section id="teclado">
-      <button type="button" data-all-clear>C</button>
-      <button type="button" data-backspace>CE</button>
-      <button type="button" data-percent>%</button>
-      <button type="button" data-operator="/" class="operator">&divide;</button>
+	<div id="calculadora">
+		<section id="display">
+	<input type="text" id="ans">
+	<input class="cc"type="button" value="C" id="clr" onclick="buttonclear()">
+<br>
+</section>
+<div id="teclado">
+<input type="button" value="7" onclick="button('7')">
+<input type="button" value="8" onclick="button('8')">
+<input type="button" value="9" onclick="button('9')">
+<input class="operator" type="button" value="/" id="div" onclick="button('/')">
+<br>
+<input type="button" value="4" onclick="button('4')">
+<input type="button" value="5" onclick="button('5')">
+<input type="button" value="6" onclick="button('6')"> 
+<input class="operator" type="button" value="*" id="mul" onclick="button('*') ">
+<br>
+<input type="button" value="1" onclick="button('1')">
+<input type="button" value="2" onclick="button('2')">
+<input type="button" value="3" onclick="button('3')">
+<input class="operator" type="button" value="-" id="sub" onclick="button('-')">
+<br>
+<input type="button" value="0" onclick="button('0')">
+<input type="button" value="." onclick="button('.')">
 
-      <button type="button" data-number="7">7</button>
-      <button type="button" data-number="8">8</button>
-      <button type="button" data-number="9">9</button>
-      <button type="button" data-operator="*" class="operator">&times;</button>
-
-      <button type="button" data-number="4">4</button>
-      <button type="button" data-number="5">5</button>
-      <button type="button" data-number="6">6</button>
-      <button type="button" data-operator="-" class="operator">&minus;</button>
-
-      <button type="button" data-number="1">1</button>
-      <button type="button" data-number="2">2</button>
-      <button type="button" data-number="3">3</button>
-      <button type="button" data-operator="+" class="operator">&plus;</button>
-
-      <button type="button" data-negative>&plus;/&minus;</button>
-      <button type="button" data-number="0">0</button>
-      <button type="button" data-number=".">&sdot;</button>
-      <button type="button" data-equals="=" class="operator">&equals;</button>
-    </section>
-  </main>
+<input type="button" value="=" onclick="button1()">
+<input class="operator" type="button" value="+" id="add" onclick="button('+')">
+<br>
+</div>
+</div>
 </body>
 </html>

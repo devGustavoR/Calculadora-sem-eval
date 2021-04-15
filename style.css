@@ -28,7 +28,7 @@ body{
 
 #calculadora{
   width: 332px;
-  height: 520px;
+  height: 378px;
   padding: 10px;
   margin: auto;
   background-color: #eaedef;
@@ -38,57 +38,52 @@ body{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #display{
-  display: grid;
+  display: flex;
   border: solid 1px var(--support2);
   border-radius: 5px;
-  height: 70px;
+  height: 40px;
   color: var(--blackish);  
 }
 #display input{
-  display: block;
+	display: block;
   text-align: right;
   padding: 8px 7px;
   background: none;
   border: none;
   font-size: 0.9rem;
-  color: var(--support3);
 }
-#display output{
-  display: block;
-  text-align: right;
-  padding: 0px 5px;
-  background: none;
-  font-weight: bold;
-  font-size: 2rem;
+#display input.cc{
+	margin-left: 70px;
+	border: none;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
 }
-
-/*Configuração do teclado*/
 #teclado{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
   grid-gap: 10px;
   padding-top: 10px;
 }
-#teclado button{
+#teclado input{
   width: 70px;
   height: 70px;
   border: none;
   border-radius: 50%;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
   outline: none;
   background-color: var(--support1);
 }
-#teclado button:hover{
+#teclado input:hover{
   background-image: linear-gradient(120deg, var(--support2), var(--support1));
 }
-#teclado button.operator{
+#teclado input.operator{
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   background-color: var(--support4);
   color: var(--whiteish);
 }
-#teclado button.operator:hover{
+#teclado input.operator:hover{
   background-image: linear-gradient(120deg, var(--blackish), var(--accent1));
 }
