@@ -8,4 +8,16 @@
   <img align="center" height="30px" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"/>
 </div>
 
+## 🚀 Installation
+
+```
+$ git clone https://github.com/devGustavoR/Calculator-without-eval.git
+$ cd Calculator-without-eval
+$ code .
+$ go live
+
+```
+
+The application will open in the browser on [http://localhost:3000](http://localhost:3000/)
+
 
