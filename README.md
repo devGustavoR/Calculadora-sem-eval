@@ -1,37 +1,35 @@
-﻿# Calculator without eval
- 
-Challenged by the DS teacher to produce a calculator without using eval, in view of this challenge I used a simple if, else and return to perform the calculations.
+# Calculator sem eval (Projeto Encerrado)
 
-## Autor
+Esse projeto foi criado em resposta a um desafio proposto pelo meu professor de front-end e back-end para criar uma calculadora sem usar a função eval() em JavaScript.
+
+## 📝Autor
 
 - [@devgustavor](https://github.com/devGustavoR)
 
-## Languages used:
+## 🛠 	Linguagens utilizadas:
 <div style="display: inline_block"></br>
   <img align="center" height="30px" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"/>
   <img align="center" height="30px" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"/>
   <img align="center" height="30px" width="40px" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"/>
 </div>
 
-## 🚀 For local run
+## 🚀 Para rodar o projeto localmente
 
-Clone the project
-
-```bash
-  git clone https://link-para-o-projeto
-```
-
-Entre no diretório do projeto
+Clone o projeto
 
 ```bash
-  cd my-project
-```
+# Clone o repositório para a sua máquina:
+git clone https://link-para-o-projeto
 
-Inicie o programa
 
-```bash
-  code .
-  go live
+# Entre no diretório do projeto
+
+cd my-project
+
+# Inicie o programa
+
+ code .
+ go live
 ```
 
 
